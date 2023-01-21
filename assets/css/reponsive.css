@@ -59,7 +59,6 @@
         height: 70vh;
         padding: 0 80px;
         background-position: top 30% right 30%;
-
     }
 
     #feature {
@@ -75,7 +74,7 @@
     }
 
     #product1 .pro {
-       margin: 15px; 
+        margin: 15px;
     }
 
     #banner {
@@ -97,6 +96,14 @@
 
     #newsletter .text-form {
         width: 70%;
+    }
+
+    #form-details {
+        padding: 40px;   
+    }
+
+    #form-details form {
+        width: 50%;
     }
 }
 
@@ -152,5 +159,98 @@
 
     #newsletter .text-form {
         width: 100%;
+    }
+
+    #pro-detail {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #pro-detail .single-pro-img {
+        width: 100%;
+        margin-right: 0px;
+    }
+
+    #pro-detail .single-pro-details {
+        width: 100%;
+    }
+
+    /* Blog */
+    #blog {
+        padding: 100px 20px 0 20px;
+    }
+
+    #blog .blog-box {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        position: relative;
+    }
+
+    #blog .blog-box .blog-img {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
+    #blog .blog-box .blog-details {
+        width: 100%;
+    }
+
+    /* About */
+    #about-head {
+        flex-direction: column;
+    }
+
+    #about-head img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #about-head .text-box {
+        padding-left: 0;
+    }
+
+    #about-head .video {
+        width: 100%;
+    }
+
+    /* Contact */
+    #contact-details {
+        flex-direction: column;
+    }
+
+    #contact-details .details {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    #contact-details .map {
+        width: 100%;
+    }
+
+    #form-details {
+        margin: 10px;
+        padding: 30px 10px;
+        flex-wrap: wrap;
+    }
+
+    #form-details form {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    /* Cart */
+    #cart-add {
+        flex-direction: column;
+    }
+
+    #coupon {
+        width: 100%;
+    }
+
+    #subtotal {
+        width: 100%;
+        padding: 20px;
     }
 }
